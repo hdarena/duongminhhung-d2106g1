@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.header {
+    background-color: white;
+    padding: 0px 24px;
+}
+
+.logo {
+    width: 10%;
+    padding: 24px 0px;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.navbar {
+    width: 70%;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+.btn {
+    width: 12.5%;
+    text-align: center;
+    display: block;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.btn:hover a {
+    color: white;
+}
+
+.btn-2 {
+    width: 25%;
+    text-align: center;
+    display: block;
+}
+
+.btn-2:hover {
+    background-color: black;
+}
+
+.btn-2:hover a {
+    color: white;
+}
+
+.searchbox {
+    width: 20%;
+}
+
+.searchbox input {
+    width: 80%;
+}
+
+.searchbox button {
+    cursor: pointer;
+    width: 10%;
+}
+
+.searchbox button img {
+    width: 100%;
+}
+
+.banner {
+    height: 75vh;
+    overflow: hidden;
+}
+
+.banner video {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.news {
+    position: absolute;
+    padding: 32px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.news h1 {
+    margin: 12px 0px;
+    font-size: 300%;
+    color: orange;
+}
+
+.news p {
+    margin-bottom: 32px;
+}
+
+.news a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    background-color: orange;
+    padding: 12px;
+}
+
+.news a:hover {
+    color: orange;
+    background-color: white;
+}
+
+.container-fluid-1 {
+    background: url(../IMG/Background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-1 {
+    padding: 48px;
+}
+
+.event-1 {
+    padding: 32px !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.event-1 h1 {
+    margin: 12px 0px;
+    font-size: 200%;
+    color: orange;
+}
+
+.event-1 p {
+    margin-bottom: 32px;
+}
+
+.event-1 a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    background-color: orange;
+    padding: 12px;
+}
+
+.event-1 a:hover {
+    color: orange;
+    background-color: white;
+}
+
+.image-1 {
+    height: 50vh;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px gray;
+    padding: 0 !important;
+    transition: 0.5s;
+}
+
+.image-1:hover {
+    width: 65%;
+    height: 55vh
+}
+
+.image-1 img {
+    width: 100%;
+}
+
+.section-2 {
+    padding: 48px;
+}
+
+.section-2 {
+    text-align: center;
+}
+
+.card {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 7px 7px 7px gray;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    transition: 0.5s;
+}
+
+.card:hover h2 {
+    color: orange;
+}
+
+.container-fluid-3 {
+    background: url(../IMG/Background-2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-3 {
+    padding: 48px;
+}
+
+.logo-2 img {
+    width: 80%;
+}
+
+.info {
+    color: white;
+    padding: 24px;
+}
+
+.info ul {
+    list-style-type: none;
+}
+
+.info li {
+    margin: 24px 12px;
+}
+
+.info a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.info a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+
